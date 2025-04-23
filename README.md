@@ -1,128 +1,52 @@
-\documentclass[11pt,letterpaper]{article}
+# Andy Lee
 
-% Packages
-\usepackage[margin=0.65in]{geometry}
-\usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage{titlesec}
-\usepackage{xcolor}
+**Contact:** 929-326-3701 | [Andylee976@gmail.com](mailto:Andylee976@gmail.com) | [github.com/gobbu](https://github.com/gobbu) | [linkedin.com/in/andy-lee-889545208](https://www.linkedin.com/in/andy-lee-889545208)
 
-% Configure hyperlinks
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue,
-    citecolor=blue,
-    filecolor=blue,
-    pdftitle={Andy Lee Resume},
-    pdfauthor={Andy Lee},
-    pdfsubject={Resume},
-    pdfkeywords={resume, computer science, programming}
-}
+## EDUCATION
 
-% Configure section formatting
-\titleformat{\section}
-  {\normalfont\large\bfseries}
-  {}{0em}
-  {}
-  [\titlerule]
+**The University at Buffalo, Buffalo, NY** | May 2025  
+Bachelor of Science, Computer Science, Minor in Mathematics  
+**Relevant Coursework:** Web Applications, Programming Languages, System Administration, Project Management
 
-% Configure lists
-\setlist[itemize]{leftmargin=*,topsep=0pt,itemsep=0pt,parsep=0pt}
+## EXPERIENCE
 
-% Remove space after section
-\titlespacing*{\section}{0pt}{12pt}{3pt}
+**Project Manager, University at Buffalo** | Jan 2024 - Present
+- Lead two software engineering teams in the development of a 2D platformer game and a stock analysis platform that aggregates financial data for investors.
+- Coordinate sprint planning, task assignments, and progress tracking to ensure timely project completion
 
-% Custom commands
-\newcommand{\jobtitle}[2]{%
-  \noindent\textbf{#1}\hfill{#2}\par
-}
+**UB Student Association, University at Buffalo** | Sep 2024 - Present  
+*Programming Staff Member*
+- Research, plan, and execute engaging events for the student body, enhancing campus life and student engagement
+- Collaborate with team members and vendors to ensure smooth event execution and a positive experience for attendees
 
-\newcommand{\jobrole}[1]{%
-  \noindent{#1}\par\vspace{0pt}
-}
+## PROJECTS
 
-\begin{document}
+**Big O Budgeting App, PHP, Node.js, React** | Aug 2024 – Dec 2024
+- Designed and developed budgeting web application with React.js, Node.js, enabling users to manage expenses/tasks, view monthly summaries, and visualize spending habits with pie charts
+- Implemented dynamic homepage features, including empty-state messages, and integrative charts for enhanced user experience
+- Build backend logic to aggregate and calculate monthly budget data, integrating a responsive frontend for seamless data visualization
+- Incorporated features such as task management with popups for additional details and a modular component-based structure for future scalability.
 
-% Remove page numbers 
-\pagenumbering{empty}
+**Rocket Reddit, Python, JavaScript, Docker** | Feb 2024 - June 2024
+- Implemented user authentication features including account registration, login, and logout
+- Enabled live chatting from web sockets to enhance user integration with each other along with media supported uploads
 
-% Header with clickable links
-\begin{center}
-    \textbf{\Large Andy Lee}\\
-    \vspace{0.1cm}
-    929-326-3701 $|$ \href{mailto:Andylee976@gmail.com}{Andylee976@gmail.com} $|$ 
-    \href{https://github.com/gobbu}{github.com/gobbu} $|$ 
-    \href{https://www.linkedin.com/in/andy-lee-889545208}{linkedin.com/in/andy-lee-889545208}
-\end{center}
+**Language, Interpreter Design, OCaml** | March 2024 - May 2024
+- Developed an interpreter for small, OCaml like stack-based byte code language
+- Implemented core functionalities such as arithmetic operations, Boolean logic, string manipulation, and error handling
 
-% Education
-\section*{EDUCATION}
-\jobtitle{The University at Buffalo, Buffalo, NY}{May 2025}
-\noindent Bachelor of Science, Computer Science, Minor in Mathematics\\
-\textbf{Relevant Coursework:} Web Applications, Programming Languages, System Administration, Project Management
+**Instant Messenger, C** | March 2023
+- Developed instant messenger application, allowing real-time communication between users via client
+- Implemented data packet encoding and decoding functionality using void pointers and pointer arithmetic
 
-% Experience
-\section*{EXPERIENCE}
-\jobtitle{Project Manager, University at Buffalo}{Jan 2024 - Present}
-\begin{itemize}
-    \item Lead two software engineering teams in the development of a 2D platformer game and a stock analysis platform that aggregates financial data for investors.
-    \item Coordinate sprint planning, task assignments, and progress tracking to ensure timely project completion
-\end{itemize}
+**Enemy AI Programming for 2D Game, Scala** | November 2022
+- Integrated graph-based algorithms such as breadth-first search (BFS), to calculate distances to avoid obstacles
+- Implemented linked-list operations alongside locating players to determine the closest player using Euclidean distance calculations
 
-\jobtitle{UB Student Association, University at Buffalo}{Sep 2024 - Present}
-\jobrole{Programming Staff Member}
-\begin{itemize}
-    \item Research, plan, and execute engaging events for the student body, enhancing campus life and student engagement
-    \item Collaborate with team members and vendors to ensure smooth event execution and a positive experience for attendees
-\end{itemize}
+## Technical Skills
 
-% Chan Tutoring Center - COMMENTED OUT
-% Uncomment the section below if you want to include it
-%
-%\jobtitle{Chan Tutoring Center, Brooklyn, NY}{Jun 2023 – Aug 2023}
-%\jobrole{One-on-One Peer Tutor}
-%\begin{itemize}
-%    \item Provided academic support and guidance to an average of 20 students ranging from grade 1-8
-%    \item Effectively communicated to parents' students' academic progress and collaborated with fellow staff to enhance tutoring services
-%\end{itemize}
+**Languages:** Python, C, Scala, JavaScript, Java, OCaml, PHP  
+**OS & Software:** Windows, Linux, Git, PyCharm, IntelliJ, EMACS, Docker, MongoDB, Microsoft Office, MySQL
 
-% Projects
-\section*{PROJECTS}
-\jobtitle{Big O Budgeting App, PHP, Node.js, React}{Aug 2024 – Dec 2024}
-\begin{itemize}
-    \item Designed and developed budgeting web application with React.js, Node.js, enabling users to manage expenses/tasks, view monthly summaries, and visualize spending habits with pie charts
-    \item Implemented dynamic homepage features, including empty-state messages, and integrative charts for enhanced user experience
-    \item Incorporated features such as task management with popups for additional details and a modular component-based structure for future scalability.
-\end{itemize}
-
-\jobtitle{Rocket Reddit, Python, JavaScript, Docker}{Feb 2024 - June 2024}
-\begin{itemize}
-    \item Implemented user authentication features including account registration, login, and logout
-    \item Enabled live chatting from web sockets to enhance user integration with each other along with media supported uploads
-\end{itemize}
-
-\jobtitle{Language, Interpreter Design, OCaml}{March 2024 - May 2024}
-\begin{itemize}
-    \item Developed an interpreter for small, OCaml like stack-based byte code language
-    \item Implemented core functionalities such as arithmetic operations, Boolean logic, string manipulation, and error handling
-\end{itemize}
-
-\jobtitle{Instant Messenger, C}{March 2023}
-\begin{itemize}
-    \item Developed instant messenger application, allowing real-time communication between users via client
-    \item Implemented data packet encoding and decoding functionality using void pointers and pointer arithmetic
-\end{itemize}
-
-\jobtitle{Enemy AI Programming for 2D Game, Scala}{November 2022}
-\begin{itemize}
-    \item Integrated graph-based algorithms such as breadth-first search (BFS), to calculate distances to avoid obstacles
-    \item Implemented linked-list operations alongside locating players to determine the closest player using Euclidean distance calculations
-\end{itemize}
-
-% Technical Skills
-\section*{Technical Skills}
-\textbf{Languages:} Python, C, Scala, JavaScript, Java, PHP\\
-\textbf{OS \& Software:} Windows, Linux, Git, PyCharm, IntelliJ, EMACS, Docker, MongoDB, Microsoft Office, MySQL
-
-\end{document}
+---
+*[View PDF Version](resume.pdf) | [View LaTeX Source](resume.tex)*
